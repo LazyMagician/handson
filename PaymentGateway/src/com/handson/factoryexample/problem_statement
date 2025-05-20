@@ -1,0 +1,5 @@
+Problem Statement:
+
+Design a Payment Gateway System that supports multiple payment methods such as Credit Card, UPI, Net Banking, and Wallets.
+ Each payment method has a distinct way of processing the transaction. The system should allow dynamic registration of new payment types (e.g., Crypto, PayLater)
+ without modifying existing logic, and should enable clients to process a payment using a simple string identifier (e.g., "upi", "credit").
