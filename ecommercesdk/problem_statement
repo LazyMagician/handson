@@ -1,0 +1,13 @@
+Problem Statement:
+
+You are integrating a third-party payment gateway into your existing e-commerce application.
+Your application expects a PaymentProcessor interface with a method processPayment(amount), but
+the new payment gateway SDK uses a different interface with a method makeTransaction(value). Design a solution using the
+Adapter Design Pattern to allow seamless integration without modifying your existing application code.
+
+
+components:
+----------
+1. PaymentProcessor
+2. PaymentGatewaySdk
+3. Client
