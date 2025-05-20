@@ -1,0 +1,12 @@
+Problem Statement:
+
+Design a logging utility for an application where all components must write logs to a single, shared log file. 
+Ensure that only one instance of the logger exists throughout the application lifecycle, even when accessed by multiple threads concurrently.
+
+Components:
+1. Logger - interface 
+2. SimpleLogger - class
+3. Service - interface
+4. Client Service
+5. Core Service
+6. External Service
