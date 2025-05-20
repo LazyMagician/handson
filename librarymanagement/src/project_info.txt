@@ -1,0 +1,32 @@
+Create a library management system with the following abilities:
+Book should have info like:
+1. Book name
+2. Book author
+3. Issued to 
+4. Issued on
+User should be able to add books, release issued books, issue books 
+Assume that all the users are registered with their names in the central database
+
+
+User  -> librarian , Student 
+
+librarian
+functions:
+ -> add new book to library passed by student 
+ -> put the issued book back post given by student 
+ -> check if a book can be issued to student and issue it
+    :condition - count < limit, book not assigned to another user
+   
+student
+functions:
+-> Add new books to library through librarian
+-> Release the book from the user's name once he has read the book
+-> Get books from library through librarian 
+
+
+common features of a user:
+getAllBooks
+
+
+Library :[central repo : we don't have db implementation so directly from here]
+1. contains list of books 
