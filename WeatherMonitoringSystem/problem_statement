@@ -1,0 +1,5 @@
+Problem Statement:
+------------------
+Design a weather monitoring system where multiple display modules (like current conditions, statistics, and forecast displays) 
+automatically update themselves whenever the central weather station receives new weather data (temperature, humidity, pressure). 
+Use the Observer Design Pattern to implement this behavior.
