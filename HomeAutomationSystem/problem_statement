@@ -1,0 +1,12 @@
+Problem Statement
+-----------------
+You are building a home automation system that controls various devices like lights, air conditioners, TVs, and security cameras. 
+Each device has its own complex set of operations and interfaces. Design a simplified interface for users to activate common scenarios 
+like "Leave Home", "Arrive Home", and "Movie Time" without needing to interact with each device individually.
+
+
+Components
+----------
+1. Devices [AC, TV, Light, Cameras]
+2. Remote (Facade)
+3. Interface for remote
