@@ -1,0 +1,10 @@
+Problem Statement:
+Design a system for ordering custom pizzas at a restaurant. Each pizza can have a variety of optional ingredients (e.g., extra cheese, mushrooms, olives, onions), different crust types,
+ sizes, and sauces. The system should allow flexible creation of pizza orders without requiring a constructor with many parameters.
+ 
+ components:
+ 1. consumerClient
+ 2. Restaurant Manager
+ 3. PizzaBuilder (Chef) -> different types of PizzaBuilder{ based on their skill}
+ 4. Pizza 
+ 
