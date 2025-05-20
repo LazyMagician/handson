@@ -1,0 +1,30 @@
+Facade Design Pattern
+---------------------
+Facade Method Design Pattern provides a unified interface to a set of interfaces in a subsystem. 
+Facade defines a high-level interface that makes the subsystem easier to use. 
+
+
+Components
+----------
+1. Facade 
+* Facade knows which subsystem classes are responsible for the request
+* It delegate client requests to appropriate subsystem objects.
+
+2.Subsystem classes
+* It implements subsystem functionality
+* It handle work assigned by the facade
+* It have no knowledge about the facade that is they have no reference to it
+
+3. Interface
+* The Interface in the Facade Design Pattern refers to the set of simplified methods that the facade exposes to the client.
+* It hides the complexities of the subsystem, ensuring that clients interact only with high-level operations, 
+  without dealing with the underlying details of the system.
+
+
+
+Facade Method Design Pattern collaborate in different way **
+
+* Client communicate with the subsystem by sending requests to Facade, which forwards them to the appropriate subsystem objects.
+* The Facade may have to do work of its own to translate it inheritance to subsystem interface.
+* Clients that use the Facade don’t have to access its subsystem objects directly. 
+

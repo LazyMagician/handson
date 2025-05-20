@@ -1,0 +1,58 @@
+Create examples of all the design patterns 
+a. Creation Design Pattern
+--------------------------
+
+--------------------------
+1.Factory design pattern
+-------------------------
+1. What?
+-> * Its a creational design pattern
+   * Promoting loose coupling between object creation and object as themselves
+   * Enhances flexibility, extensiblity, and maintainability enabling subclass to implement factory method
+    
+2. When to use?
+-> Below is when to use factory method design pattern:
+
+   * If your object creation process is complex or varies under different conditions, using a factory method 
+     can make your client code simpler and promote reusability.
+   * The Factory Method Pattern allows you to create objects through an interface or abstract class, 
+      hiding the details of concrete implementations. This reduces dependencies and makes it easier to modify or expand the system without affecting existing code.
+   * If your application needs to create different versions of a product or may introduce new types in the future,
+      the Factory Method Pattern provides a flexible way to handle these variations by defining specific factory methods for each product type.
+   * Factories can also encapsulate configuration logic, allowing clients to customize the object creation
+      process by providing parameters or options to the factory method.
+
+3. Components
+-> Creator [Interface or abstract class], Concrete Creator extends <Creator>, Product[Interface or abstract class], Concrete Product extends <Product>
+
+
+
+--------------------------
+2. Builder design pattern
+--------------------------
+1. What?
+-> The Builder Design Pattern is a creational pattern used in software design to construct a complex object step by step. 
+   It allows the construction of a product in a step-by-step manner, where the construction process can change based on the type of product being built. 
+   This pattern separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
+
+
+
+2. When to use ?
+-> The Builder design pattern is used when you need to create complex objects with a large number of optional components or configuration parameters.
+   This pattern is particularly useful when an object needs to be constructed step by step, some of the scenarios where the Builder design pattern is beneficial are:
+	* Complex Object Construction [provide a clear separation between the construction process and the actual representation of the object.]
+	* Step-by-Step Construction  [construction of an object involves a step-by-step process]
+	* Avoiding constructors with multiple parameters [telescoping constructors]
+	* Configurable Object Creation [create objects with different configurations or variations]
+	* Common Interface for Multiple Representations [provide a common interface for constructing different representations]
+	
+	
+3. Components 
+-> 
+   1. Product: The Product is the complex object that the Builder pattern is responsible for constructing.
+   2. Builder <Interface> : The Builder is an interface or an abstract class that declares the construction steps for building a complex object
+   3. ConcreteBuilder implements Builder : ConcreteBuilder classes implement the Builder interface, providing specific implementations for building each part of the product.
+   4. Director : The Director is responsible for managing the construction process of the complex object. [ managing the steps needed to create the complex object ]
+   5. Client : The Client is the code that initiates the construction of the complex object.
+
+
