@@ -1,0 +1,17 @@
+Problem Statement
+-----------------
+An e-commerce platform needs to calculate shipping costs based on different strategies
+such as standard shipping, express shipping, and free shipping promotions.
+The calculation logic varies depending on the chosen strategy and may change over time. 
+To keep the system flexible and maintainable, the platform should allow selecting or changing 
+the shipping cost calculation strategy dynamically without altering the core order processing code.
+
+
+Components
+----------
+1. EcomSmartShippingContext [Context - class]
+2. ShippingStrategy [Strategy - interface]
+3. StandardShipping 
+4. ExpressShipping
+5. FreeShipping
+6. Client
