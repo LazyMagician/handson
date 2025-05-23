@@ -1,0 +1,21 @@
+Project
+-------
+A simple chat app currently I'm just focusing on the connectivity part where in I will be implementing
+various ways to establish connections with some real world problems. [Transport layer]
+
+
+Features to implement
+---------------------
+1. TCP socket connection to provide a basic client server connections
+2. UDP socket connection 
+3. Multi-threaded servers ( one thread per client )
+4. Secure sockets with SSL
+5. Java nio for non-blocking communication 
+6. Object serialization (Send objects over socket )
+7. Hearbeat mechanism ( Detect dead clients )
+8. Integrate web client (web sockets)
+
+
+Part 1
+------
+1. simple single way connection from client to server  
