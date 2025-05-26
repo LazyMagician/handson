@@ -1,0 +1,112 @@
+Spring boot master plan
+-----------------------
+How to learn spring boot. Intention be capable of creating webapps e2e by your own be a master.
+
+1. java core -> servelet -> jsp -> framework --> spring -> spring mvc  ---> spring boot [Standard]
+
+2. java core -> project management tools -> spring core
+
+variables, type casting, oops, class, objects, constructor, interfaces,abstract, packages
+
+Spring core
+-------------
+1. Dependency injection 
+2. way to inject dependencies
+3. xml/annotations for configurations	
+
+Spring boot basics
+--------------------
+1. How traditional project works
+2. what problem spring boot solves
+3. spring boot initializer
+4. Important annotations @SpringBootApplication
+																																						
+DB
+------
+postgres
+1. basics
+2. advances, joins, nested, functions, procedures
+
+Spring data
+-------------
+1. How old jdbc do [disadvantages]
+2. spring data jdbc - template, client
+3. spring data JPA(ORM) - basics, advances, hibernate
+
+
+REST api
+--------
+1. How spring mvc - traditionally works
+2. How spring boot do
+3. Mvc concepts -> controllers , path variables, request param, data validations, image upload, exceptions. paging & sorting
+
+
+Spring Security
+---------------
+1. Basics 
+2. Secure rest apis
+3. JWT based security 
+4. OAuth2
+
+
+API Documentations
+------------------
+1.Swagger
+
+
+Logging
+-------
+SL4j and logback
+
+
+Real World Project
+------------------
+1. Social network
+2. Ecommerce
+3. Food Delivery app
+
+
+Git & Github
+-------------
+
+Deploy
+------
+AWS, gcp,azure
+
+------
+How?
+-----
+1. How are you planning complete all these how much time it will take?
+2. DSA 300 questions - topics : arrays, strings, ll, trees, heap, graph [DP important],graph [Imporant]
+
+
+
+Microservices
+-------------
+
+1. Intorduction
+-> monolith and microservices
+-> benefits and challenges
+
+
+2. Service communication
+-> Synchronous and Asynchronous
+-> Feign client
+-> gRPC [SKIP]
+
+
+3. Service Discovery
+-> Netflix Eureka
+-> Consul
+
+4. API Gateway
+-> Spring cloud gateway
+-> Zuul
+
+5. Load Balancing
+-> Client Side
+-> Server Side
+
+6. Configuration Management 
+-> Spring cloud config server
+-> String Config Github
