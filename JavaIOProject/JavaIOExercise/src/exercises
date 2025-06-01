@@ -1,0 +1,31 @@
+Java I/O Streams Hands-On Exercises
+-----------------------------------
+
+Exercise 1: Copy Text File (Character Stream)
+Use BufferedReader and BufferedWriter to read from 'input.txt' and write to 'output.txt'.
+- Use FileReader/FileWriter for file access.
+- Print 'File copied successfully!' after completion.
+
+Exercise 2: Copy Binary File (Byte Stream)
+Use FileInputStream and FileOutputStream to copy an image file ('image.jpg' to 'image_copy.jpg').
+- Use a byte buffer (e.g., 1024 bytes).
+- Handle IOException.
+
+Exercise 3: Write and Read Primitive Data
+Use DataOutputStream to write integers and strings to a file 'data.dat'.
+Then, use DataInputStream to read and print them.
+
+Exercise 4: Object Serialization
+Create a Serializable class (e.g., Student).
+- Use ObjectOutputStream to serialize a Student object.
+- Use ObjectInputStream to deserialize it and display the contents.
+
+Exercise 5: In-Memory Byte Stream
+Use ByteArrayOutputStream to collect strings and convert to byte array.
+- Then use ByteArrayInputStream to read them back.
+- Useful for buffer-based logic or mocking input.
+
+Bonus Project: Simple Chat Logger
+Build a simple console chat logger:
+- Accept input from user via BufferedReader(InputStreamReader(System.in)).
+- Write chat logs to 'chatlog.txt' using BufferedWriter.
